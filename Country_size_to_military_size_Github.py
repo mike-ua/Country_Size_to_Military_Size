@@ -8,7 +8,7 @@ st.subheader("Comparison of Country size (in sq. km) to Military size")
 
 
 #Load data from the COMBINED .csv file
-df = pd.read_csv('https://github.com/mike-ua/Streamlit-Data/blob/950c1c715785bd84c6bbcd9f9c98803bf9de4b2b/Country_Military_Size_August_2024.csv')
+df = pd.read_csv('https://github.com/mike-ua/Streamlit-Data/blob/950c1c715785bd84c6bbcd9f9c98803bf9de4b2b/Country_Military_Size_August_2024.csv?raw=true')
 
 
 #Clean column names to avoid issues with spaces or case sensitivity
